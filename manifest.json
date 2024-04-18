@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Audio messagebox search",
+    "version": "1.0",
+    "description": "LinkedIn searching on audio input in messagebox",
+    
+    "content_scripts": [
+      {
+        "js": ["content.js"],
+        "css": ["content.css"],
+        "matches": [
+          "https://www.linkedin.com/*"
+        ]
+      }
+    ]
+  }
